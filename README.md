@@ -13,8 +13,7 @@ This example is inspired by [next.js-auth0](https://github.com/luisrudge/next.js
 ## Setup
 
 * Create an account at Auth0 (https://auth0.com)
-* Add your endpoints to your client's allowed urls like this ![nuxt-callbacks](https://cloud.githubusercontent.com/assets/904724/22703633/23f35724-ed65-11e6-83e4-227ad77c00ff.png)
-* Add your logout endpoint to your account allowed urls like this ![nuxt-logout-cb](https://cloud.githubusercontent.com/assets/904724/22703768/9782bbbc-ed65-11e6-93b7-9c1e4d5d7984.png)
+* Add your endpoints to your client's allowed urls like this ![nuxt-callbacks](https://user-images.githubusercontent.com/31644329/59735104-20d02000-928f-11e9-88df-d782ad2101b2.png)
 
 * Copy the file `config.sample.json` at the root folder, rename it as `config.json` and add your Auth0 keys
 
@@ -27,3 +26,10 @@ npm install
 npm run dev
 ```
 
+## Running with Docker
+
+```
+git clone https://github.com/vt-iwamoto/nuxt-example-auth0.git
+cd nuxt-example-auth0
+sh exec.sh
+```
